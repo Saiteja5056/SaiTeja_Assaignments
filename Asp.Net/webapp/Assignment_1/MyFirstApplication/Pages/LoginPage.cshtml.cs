@@ -12,7 +12,7 @@ namespace MyFirstApplication.Pages
         public string Message { get; set; }
         public void OnPost()
         {
-            if (Name == "Sridhar" && Password == "1234")
+            if (Name == "Sai" && Password == "1234")
             {
                 Message = "Login Succesfull";
             }
